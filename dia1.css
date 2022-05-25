@@ -207,8 +207,17 @@ body.menu-expanded .menu{
 }
 
 .menu ul li a{
+  font-size: 1.5rem;
   color: var(--font-primary-color);
   text-decoration: none;
+}
+
+.menu ul:nth-child(1){
+  margin-top: 2.75rem;
+}
+
+.menu ul li{
+  margin-bottom: 3rem;
 }
 
 .menu .button:hover{
