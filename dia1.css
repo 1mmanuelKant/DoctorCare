@@ -16,6 +16,7 @@
   --brand-hover: hsl(var(--hue), 100%, 14%);
   --brand-green-light-02: hsl(calc(var(--hue) +  10), 14%, 97%);
 
+  --dot-hover: hsl(var(--hue), 20%, 40%);
   --nav-height: 4.5rem;
 }
 html{
@@ -534,7 +535,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 70%;
   }
   
   nav#navigation .menu ul:nth-child(1){
