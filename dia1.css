@@ -16,7 +16,7 @@
   --brand-hover: hsl(var(--hue), 100%, 14%);
   --brand-green-light-02: hsl(calc(var(--hue) +  10), 14%, 97%);
 
-  --dot-hover: hsl(var(--hue), 20%, 40%);
+  --dot-hover: hsl(var(--hue), 30%, 30%);
   --nav-height: 4.5rem;
 }
 html{
