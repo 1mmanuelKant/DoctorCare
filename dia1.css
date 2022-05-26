@@ -373,7 +373,9 @@ margin-inline: auto;
 #about img{
   margin-bottom: 6.25rem;
 }
-#about .wrapper h2, p, img{
+#about .wrapper h2,
+#about .wrapper p,
+#about .wrapper img{
   padding-inline: 1.5rem;
 }
 /* ======== TOUCH ============== */
@@ -746,6 +748,91 @@ body{
 
   #touch .content ul:nth-child(2){
     margin-bottom: 2.5rem;
+  }
+
+/* ========= DEPOSITIONS =============== */
+
+  #depositions .testemony{
+    display: inline-block;
+
+    background-color: var(--brand-beige);
+
+    width: 33.3125rem;
+    height: 17.0625rem;
+    padding: 2rem;
+
+    text-align: left;
+  }
+
+  #depositions .wrapper{
+    gap: 3.75rem;
+  }
+
+  #depositions .testemony:nth-child(1){
+    margin-right: 1rem;
+  }
+  #depositions .testemony:nth-child(2){
+    margin-left: 1rem;
+  }
+
+  #depositions .testemony p{
+    margin-block: 1.25rem;
+  }
+
+  #depositions .checked circle,
+  #depositions .testemony svg path{
+    fill: var(--primary-color);
+  }
+
+  #depositions h2{
+    font-size: 2.5rem;
+
+    line-height: 3.255rem;
+
+    height: 6.5rem;
+    width: 30.0625rem;
+  }
+
+  #depositions .testemonyprofile{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    align-items: center;
+  }
+ 
+  #depositions span{
+    color: var(--primary-color);
+    font-weight: 700;
+  }
+
+  #depositions .dots{
+    margin-block: 3.0625rem 6.25rem;
+  }
+
+  #depositions input{
+    display: none;
+  }
+
+  #depositions label{
+    cursor: pointer;
+  }
+  
+  #depositions label:hover circle{
+    transition: 0.5s;
+    fill: var(--dot-hover);
+  }
+
+  #depositions h3{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  #depositions .companies-logo{
+    display: flex;
+    align-items: center;
+
+    gap: 6.1875rem;
   }
 
 /* ========= FOOTER =============== */
