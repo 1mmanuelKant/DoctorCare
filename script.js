@@ -21,9 +21,9 @@ function showBackToTopBtnOnScroll(){
 
 function showNavOnScroll(){
   if (scrollY == 0) {
-    navigation.classList.remove('scroll')
+    nnavigation.classList.remove('scroll')
   } else {
-    navigation.classList.add('scroll')
+    nnavigation.classList.add('scroll')
   }
 }
 
