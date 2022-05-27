@@ -1,9 +1,8 @@
 window.addEventListener('scroll', onScroll)
 
-onScroll()
 function onScroll() {
-  showNavOnScroll()
   showBackToTopBtnOnScroll()
+  showNavOnScroll()
 
   activateMenuAtCurrentSection(home)
   activateMenuAtCurrentSection(services)
@@ -12,7 +11,7 @@ function onScroll() {
   activateMenuAtCurrentSection(depositions)
 }
 
-function showNavOnScroll(){
+function showBackToTopBtnOnScroll(){
   if (scrollY > 400) {
     backToTopBtn.classList.add('show')
   } else {
@@ -20,7 +19,7 @@ function showNavOnScroll(){
   }
 }
 
-function showBackToTopBtnOnScroll(){
+function showNavOnScroll(){
   if (scrollY == 0) {
     navigation.classList.remove('scroll')
   } else {
