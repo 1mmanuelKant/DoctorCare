@@ -872,6 +872,7 @@ body{
 
   #depositions .companies-logo{
     display: flex;
+    flex-direction: row;
     align-items: center;
 
     gap: 6.1875rem;
